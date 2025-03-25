@@ -1,0 +1,11 @@
+# Ignorar archivos ejecutables y binarios
+*.exe
+*.out
+*.a
+*.o
+
+# Ignorar archivos de configuración de Code::Blocks
+*.cbp
+*.depend
+*.layout
+*.workspace
