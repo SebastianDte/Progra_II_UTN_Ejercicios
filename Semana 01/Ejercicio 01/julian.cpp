@@ -1,17 +1,17 @@
 #include <iostream>
 /*
-Una empresa lleva un registro de asistencia de sus 30 empleados. Cada vez que un empleado asiste al trabajo, se registra la siguiente informaci¢n:
+Una empresa lleva un registro de asistencia de sus 30 empleados. Cada vez que un empleado asiste al trabajo, se registra la siguiente informaciÂ¢n:
   -Numero de empleado (100 a 129)
   -Mes (1 a 12)
   -Dia (1 a 31)
-  -Horas trabajadas en el d¡a
+  -Horas trabajadas en el dÂ¡a
 
 Los registros finalizan cuando se ingresa un numero de empleado igual a 0.
 Al finalizar la carga de datos, se debe calcular:
 
-  A-Para cada mes del a¤o, mostrar cuantos dias tuvieron al menos un empleado presente.
-  B-Listar los dias del a¤o en los que ningun empleado trabajo.
-  C-Por cada empleado, indicar el numero de empleado y la cantidad de horas trabajadas en total en el a¤o.
+  A-Para cada mes del aÂ¤o, mostrar cuantos dias tuvieron al menos un empleado presente.
+  B-Listar los dias del aÂ¤o en los que ningun empleado trabajo.
+  C-Por cada empleado, indicar el numero de empleado y la cantidad de horas trabajadas en total en el aÂ¤o.
 
 */
 using namespace std;
@@ -57,10 +57,10 @@ int main()
 }
 
 
-/// A-Para cada mes del a¤o, mostrar cuantos dias tuvieron al menos un empleado presente.
+/// A-Para cada mes del aÂ¤o, mostrar cuantos dias tuvieron al menos un empleado presente.
 void puntoA(bool matPresentes[][31], int filas, int columnas)
 {
-    cout << endl << "--- Punto A: D¡as con empleados presentes por mes ---" << endl;
+    cout << endl << "--- Punto A: DÂ¡as con empleados presentes por mes ---" << endl;
     cout << endl;
     cout << endl;
     string nombresMeses[] =
@@ -79,14 +79,14 @@ void puntoA(bool matPresentes[][31], int filas, int columnas)
                 cantPresentes++;
             }
         }
-        cout << cantPresentes << " d¡as con empleados presentes." << endl;
+        cout << cantPresentes << " dÂ¡as con empleados presentes." << endl;
     }
 }
 
-/// B-Listar los dias del a¤o en los que ningun empleado trabajo.
+/// B-Listar los dias del aÂ¤o en los que ningun empleado trabajo.
 void puntoB(bool matPresentes[][31], int filas, int columnas)
 {
-    cout << endl << "--- Punto B: D¡as del a¤o sin empleados presentes ---" << endl;
+    cout << endl << "--- Punto B: DÂ¡as del aÂ¤o sin empleados presentes ---" << endl;
     cout << endl;
     cout << endl;
     string nombresMeses[] =
@@ -102,7 +102,7 @@ void puntoB(bool matPresentes[][31], int filas, int columnas)
         {
             if (!matPresentes[mes][dia])
             {
-                cout << "  D¡a " << dia + 1 << endl;
+                cout << "  DÂ¡a " << dia + 1 << endl;
             }
         }
     }
