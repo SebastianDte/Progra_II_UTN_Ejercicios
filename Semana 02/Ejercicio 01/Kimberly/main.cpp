@@ -5,35 +5,22 @@ el usuario debe poder cargar el array y mostrarlo, y luego libere la memoria con
 
 */
 #include <iostream>
+#include <cstdlib>
+#include <windows.h>
+#include "funciones.h"
 using namespace std;
 
-
-
-int main(){
+int main()
+{
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);
 
     int *vec = nullptr, numElementos;
 
-    cout << "Ingrese el numero de elementos a cargar: ";
-    cin >> numElementos;
-
-    vec = new int[numElementos];
-
-    if (vec == nullptr){
-        cout << "\nNo hay memoria." << endl;
-        return -1;
-    }
-
-    for (int i = 0; i < numElementos; ++i){
-        cout << "\nIngrese un valor para el elemento #" << i+1 << ": ";
-        cin >> vec[i];
-    }
-
-    for(int i = 0; i < numElementos; ++i){
-        cout << "\nElemento en posicion #"  << i+1 << ": " << vec[i] << endl;
-    }
+    cargarVector(vec, numElementos);
+    system("cls");
+    mostrarVector(vec, numElementos);
 
     delete []vec;
-
-
-	return 0;
+    return 0;
 }
