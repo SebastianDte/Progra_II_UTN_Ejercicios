@@ -1,0 +1,32 @@
+# depslib dependency file v1.0
+1743314158 source:c:\users\mauro\onedrive\escritorio\utn\programacion 2\cpp\actividad2_matrices\main.cpp
+	<iostream>
+	"funciones.h"
+
+1743315396 c:\users\mauro\onedrive\escritorio\utn\programacion 2\cpp\actividad2_matrices\funciones.h
+	<iostream>
+
+1743369488 source:c:\users\mauro\onedrive\escritorio\repositorios_git\programacion-2\actividad2_matrices\main.cpp
+	<iostream>
+	"funciones.h"
+	"funciones.cpp"
+
+1743371490 c:\users\mauro\onedrive\escritorio\repositorios_git\programacion-2\actividad2_matrices\funciones.h
+	<iostream>
+
+1743371975 c:\users\mauro\onedrive\escritorio\repositorios_git\programacion-2\actividad2_matrices\funciones.cpp
+	"funciones.h"
+	<iostream>
+
+1743373822 source:c:\users\mauro\onedrive\escritorio\repositoriogit\programacion-2\actividad2_matrices\main.cpp
+	<iostream>
+	"funciones.h"
+	"funciones.cpp"
+
+1743378012 c:\users\mauro\onedrive\escritorio\repositoriogit\programacion-2\actividad2_matrices\funciones.h
+	<iostream>
+
+1743381180 c:\users\mauro\onedrive\escritorio\repositoriogit\programacion-2\actividad2_matrices\funciones.cpp
+	"funciones.h"
+	<iostream>
+
